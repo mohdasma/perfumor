@@ -249,18 +249,56 @@ nav {
 }
 
 .info {
-    width      : 500px;
-    padding-top: 50px;
+    width      : 31.25rem;
+    padding-top: 3.125rem;
 }
 
 .content div {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .content-mid {
-    position: relative;
+    padding: 5rem 0;
 }
 
-.content-mid h3 {
-    position: absolute;
+.content-mid nav {
+    padding-top: 1.25rem;
+}
+
+.brand-images {
+    padding-top          : 3.125rem;
+    background-attachment: #f5f5f5;
+    font-weight          : 900;
+
+}
+
+.brand {
+    width           : 13.75rem;
+    height          : 18.75rem;
+    padding-top     : 1.875rem;
+    background-color: #ffffff;
+    margin          : 0.625rem;
+}
+
+.brand p {
+    color: #c70134;
+
+}
+
+.brand-images .images,
+.images-bottom {
+    display        : flex;
+    justify-content: center;
+
+}
+
+.content-bottom {
+    background-image : url(../images/22.jpg);
+    height           : 37.5rem;
+    background-repeat: no-repeat;
+
+}
+
+content-bottom div {
+    text-align: center;
 }
