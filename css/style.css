@@ -182,10 +182,11 @@ nav {
 .banner {
     background-image: url(../images/banner4.jpg);
     height          : 31.25rem;
+    margin-bottom   : 30px;
 
 }
 
-.banner .description {
+.description {
     width  : 34.375rem;
     padding: 1.875rem;
 }
@@ -223,7 +224,7 @@ nav {
 .products p {
     padding-bottom: 1.25rem;
     font-size     : 0.875rem;
-
+    text-transform: capitalize;
 }
 
 .products h4 {
@@ -243,6 +244,23 @@ nav {
 }
 
 .content {
-    background-image: url(../images/merita-bin-e9geJhWBC5I-unsplash\(1\).jpg);
-    height          : 31.25rem;
+    background-image: url(../images/banner10.jpg);
+    height          : 33.25rem;
+}
+
+.info {
+    width      : 500px;
+    padding-top: 50px;
+}
+
+.content div {
+    padding: 20px;
+}
+
+.content-mid {
+    position: relative;
+}
+
+.content-mid h3 {
+    position: absolute;
 }
