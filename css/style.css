@@ -182,7 +182,6 @@ nav {
 .banner {
     background-image: url(../images/banner4.jpg);
     height          : 31.25rem;
-    margin-bottom   : 30px;
 
 }
 
@@ -286,7 +285,8 @@ nav {
 }
 
 .brand-images .images,
-.images-bottom {
+.images-bottom,
+.team .team-members {
     display        : flex;
     justify-content: center;
 
@@ -301,4 +301,43 @@ nav {
 
 content-bottom div {
     text-align: center;
+}
+
+.discount {
+    margin        : auto;
+    padding-left  : 25rem;
+    width         : 50rem;
+    padding-top   : 5.625rem;
+    letter-spacing: 2;
+
+}
+
+.discount div {
+    padding: 0.9375rem;
+}
+
+.team {
+    padding: 0.625rem;
+}
+
+.team .card {
+    padding      : 0.625rem;
+    margin       : 3.75rem;
+    border-bottom: 0.3125rem solid #c70134;
+}
+
+.team img {
+    border-radius: 0.625rem solid #fff;
+}
+
+.team h5 {
+    font-weight   : 900;
+    text-transform: capitalize;
+    font-size     : 1.125rem;
+}
+
+.team p {
+    color         : #c70134;
+    text-transform: capitalize;
+    font-weight   : 600;
 }
