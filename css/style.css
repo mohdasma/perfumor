@@ -134,7 +134,12 @@ table {
     border-spacing : 0;
 }
 
+
 /***header***/
+main {
+    width: 100%;
+}
+
 body {
     font-family: 'Padauk', sans-serif;
     font-size  : 0.875rem;
@@ -158,6 +163,7 @@ body {
     font-size     : 1.563rem;
     letter-spacing: 0.25rem;
 }
+
 /**navigation**/
 nav {
     color         : #000;
@@ -178,6 +184,7 @@ nav {
 .active {
     color: #c70134;
 }
+
 /**banner**/
 .banner {
     background-image: url(../images/banner4.jpg);
@@ -241,6 +248,7 @@ nav {
     font-weight   : 400;
     padding-bottom: 1.25rem;
 }
+
 /**content**/
 .content {
     background-image: url(../images/banner10.jpg);
@@ -299,7 +307,7 @@ nav {
 
 }
 
-content-bottom div {
+.content-bottom div {
     text-align: center;
 }
 
@@ -349,12 +357,12 @@ content-bottom div {
     font-weight   : 600;
 }
 
-.secondary-content {
+.sub-content {
     background-image: url(../images/flower.jpg);
     height          : 18.75rem;
 }
 
-.secondary-content h3 {
+.sub-content h3 {
     font-size  : 2.1875rem;
     font-weight: 900;
     padding    : 0.938rem;
@@ -425,6 +433,7 @@ content-bottom div {
     display  : flex;
     flex-grow: 3;
 }
+
 /**portfolio**/
 .portfolio {
     margin-top: 6.25rem;
@@ -456,5 +465,70 @@ content-bottom div {
     width  : 100%;
     display: block;
 }
+
 /**footer**/
 
+
+.text {
+    width        : 100%;
+    padding      : 0.75rem 1.25rem;
+    margin       : 0.5rem 0;
+    box-sizing   : border-box;
+    border       : none;
+    border-bottom: 0.125rem solid red;
+}
+
+.footer-top {
+    color           : #ffffff;
+    padding         : 1.25rem;
+    background-color: #212121;
+
+}
+
+form h5,
+.footer-top h5 {
+    padding-bottom: 1.875rem;
+    font-weight   : 900;
+    text-transform: capitalize;
+    font-size     : 1.875rem;
+}
+
+.footer-top h5 {
+    text-transform: uppercase;
+    font-size     : 1.125rem;
+}
+
+.perfumes {
+    display: flex;
+}
+
+footer p {
+    padding: 0.938rem 0;
+}
+
+footer h6 {
+    color         : #797979;
+    text-transform: uppercase;
+}
+
+.perfumes p {
+    padding    : 0.625rem;
+    margin     : 0.625rem;
+    font-size  : 1.875rem;
+    color      : #797979;
+    font-weight: 900;
+}
+
+.form p {
+    line-height  : 3.125rem;
+    border-bottom: 0.063rem solid #f5f5f5;
+}
+
+.footer-bottom {
+    background-color: #2d2d2d;
+    color           : #797979;
+}
+
+.footer-bottom i {
+    padding: 0.625rem;
+}
